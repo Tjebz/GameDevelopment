@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Visual Studio 2015\Projects\Game\Game\Coord.cpp" />
+    <ClCompile Include="..\..\..\..\Visual Studio 2015\Projects\Game\Game\Entity.cpp" />
+    <ClCompile Include="..\..\..\..\Visual Studio 2015\Projects\Game\Game\Size.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Visual Studio 2015\Projects\Game\Game\Coord.h" />
+    <ClInclude Include="..\..\..\..\Visual Studio 2015\Projects\Game\Game\Entity.h" />
+    <ClInclude Include="..\..\..\..\Visual Studio 2015\Projects\Game\Game\Size.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{BBFD41F7-5FF5-40FB-8E40-A3B95837B57A}</ProjectGuid>
     <RootNamespace>FirstGame</RootNamespace>
@@ -109,8 +120,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
