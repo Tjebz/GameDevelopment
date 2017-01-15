@@ -15,27 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Coord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Visual Studio 2015\Projects\Game\Game\Coord.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Visual Studio 2015\Projects\Game\Game\Entity.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Visual Studio 2015\Projects\Game\Game\Size.cpp">
+    <ClCompile Include="Size.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Visual Studio 2015\Projects\Game\Game\Coord.h">
+    <ClInclude Include="Coord.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Visual Studio 2015\Projects\Game\Game\Entity.h">
+    <ClInclude Include="Entity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Visual Studio 2015\Projects\Game\Game\Size.h">
+    <ClInclude Include="Size.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
