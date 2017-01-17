@@ -15,12 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Coord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+<<<<<<< HEAD:SpaceNinja/SpaceNinja/SpaceNinja.vcxproj.filters
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="res_path.h">
+=======
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Size.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="res_path.h">
+    <ClInclude Include="Coord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Size.h">
+>>>>>>> origin/master:FirstGame/FirstGame/FirstGame.vcxproj.filters
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
