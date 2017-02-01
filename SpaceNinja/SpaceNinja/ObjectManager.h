@@ -13,6 +13,7 @@ public:
 
 	void addObject(ObjectPtr Object);
 
+	void resolveInput(SDL_Event &e);
 	void updateAll();
 
 private:

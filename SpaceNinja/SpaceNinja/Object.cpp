@@ -24,12 +24,21 @@ SDL_Rect Object::getRect() {
 void Object::setPos(int x, int y) {
 	_rect.x = x;
 	_rect.y = y;
+	_representation->updatePos(SDL_Point{ x, y });
 }
 
 void Object::setRect(SDL_Rect rect) {
 	_rect = rect;
 }
 
+void Object::setController(CtrlPtr controller) {
+	_controller = controller;
+}
+
 ReprPtr Object::getRepresentation() {
 	return _representation;
+}
+
+CtrlPtr Object::getController() {
+	return _controller;
 }

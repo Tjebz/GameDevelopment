@@ -15,6 +15,12 @@ void ObjectManager::addObject(ObjectPtr object) {
 	_reprManager->addRepr(object->getRepresentation());
 }
 
+void ObjectManager::resolveInput(SDL_Event &e) {
+	for (std::vector<ObjectPtr>::iterator it = _objectList.begin(); it != _objectList.end(); it++) {
+		(*it)->resolveInput(e);
+	}
+}
+
 void ObjectManager::updateAll() {
 	for (std::vector<ObjectPtr>::iterator it = _objectList.begin(); it != _objectList.end(); it++) {
 		(*it)->update();

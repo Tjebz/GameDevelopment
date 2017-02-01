@@ -41,5 +41,6 @@ void Representation::updatePos(SDL_Point pos) {
 }
 
 void Representation::drawSelf(SDL_Renderer * ren) {
+	//std::cout << _rect.x << " " << _rect.y << std::endl;
 	SDL_RenderCopy(ren, _texture, NULL, &_rect);
 }
